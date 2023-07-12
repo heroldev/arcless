@@ -1,28 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.less'
 
 function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className={"x-container"}>
+        <h1 className={"x-title-name"}>Andrew Herold</h1>
+        <h2 className={"x-subtitle"}>turning dreams into reality through efficient code and clean design</h2>
       </div>
-      <h1 className={"x-title-name"}>Andrew Herold</h1>
-      <div className="card">
+      <hr />
+      <div className="x-container">
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          bs in computer science @ <a href="https://mnsu.edu">minnesota state university, mankato</a>
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className={"x-container"}>
+        <p><a href="https://github.com/heroldev">github</a>{" / "}<a href="https://youtube.com">list of projects</a></p>
+      </div>
+      <hr />
+      <div className={"x-container"}>
+        <p>email: andrew [at] this domain</p>
+      </div>
+      <div className={"x-container"}>
+        <p className="x-p-small">hello!</p>
+      </div>
+      <div className={"x-container"}>
+        <p className="x-p-footer">last updated: 07.11.2023</p>
+      </div>
     </>
   )
 }
