@@ -18,7 +18,7 @@ function App() {
       </div>
       <hr />
       <div className={"x-container"}>
-        <p>email: andrew [at] this domain</p>
+        <p>e-mail: andrew [at] this domain</p>
       </div>
       {/*
 <div className={"x-container"}>
