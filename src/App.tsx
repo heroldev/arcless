@@ -14,7 +14,7 @@ function App() {
         </p>
       </div>
       <div className={"x-container"}>
-        <p><a href="https://github.com/heroldev">github</a>{" / "}<a href="https://storage.cloud.google.com/heroldev/resume.pdf">résumé</a>{" / "}<a href="https://youtube.com">list of projects</a></p>
+        <p><a href="https://github.com/heroldev">github</a>{" / "}<a href="https://storage.cloud.google.com/heroldev/resume.pdf">résumé</a></p>
       </div>
       <hr />
       <div className={"x-container"}>
