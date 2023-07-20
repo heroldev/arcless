@@ -1,3 +1,10 @@
+@astrobrite-peach: #FEDEB5;
+@resume-text: #141414;
+@lighter-text: #30323D;
+@even-lighter: #4D5061;
+@cadet-gray: #8B939C;
+@air-superiority: #779CAB;
+
 :root {
   font-family: adobe-garamond-pro;
   font-weight: 400;
@@ -14,8 +21,8 @@
 
   line-height: 1.5;
 
-  background: var(--arc-palette-background);
-  color: var(--arc-palette-foregroundPrimary);
+  background: var(--arc-palette-background, @astrobrite-peach);
+  color: var(--arc-palette-foregroundPrimary, @resume-text);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,6 +36,7 @@
   padding: 0;
   margin: 0;
   line-height: 140%;
+  text-align: center;
 }
 
 #root {
@@ -54,9 +62,16 @@ body {
 }
 
 hr {
-  border-top: 1px solid #c4c0bc;
+  border-top: 1px solid var(--arc-palette-subtitle, @resume-text);
   width: 40px;
   margin: 0.6em 0;
+}
+
+a {
+  color: var(--arc-palette-foregroundPrimary, @resume-text);
+  &:hover {
+    color: var(--arc-palette-foregroundSecondary, @even-lighter);
+  }
 }
 
 h1 {

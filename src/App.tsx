@@ -14,15 +14,17 @@ function App() {
         </p>
       </div>
       <div className={"x-container"}>
-        <p><a href="https://github.com/heroldev">github</a>{" / "}<a href="https://youtube.com">list of projects</a></p>
+        <p><a href="https://github.com/heroldev">github</a>{" / "}<a href="https://storage.cloud.google.com/heroldev/resume.pdf">résumé</a>{" / "}<a href="https://youtube.com">list of projects</a></p>
       </div>
       <hr />
       <div className={"x-container"}>
         <p>email: andrew [at] this domain</p>
       </div>
-      <div className={"x-container"}>
+      {/*
+<div className={"x-container"}>
         <p className="x-p-small">hello!</p>
       </div>
+  */}
       <div className={"x-container"}>
         <p className="x-p-footer">last updated: 07.11.2023</p>
       </div>
