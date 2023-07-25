@@ -26,7 +26,7 @@ const Projects = () => {
           </div>
           <ul>
             <li>
-              <p>Architected a cross-platform tracker music player using <p>Golang</p>Golang and the BASS audio library.</p>
+              <p>Architected a cross-platform tracker music player using <strong>Golang</strong> and the BASS audio library.</p>
             </li>
           </ul>
         </div>
