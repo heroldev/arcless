@@ -17,7 +17,7 @@ const Home = () => {
         <p>
           <a href="https://github.com/heroldev">github</a>
           {" / "}
-          <a href="https://storage.cloud.google.com/heroldev/resume.pdf">résumé</a>
+          <a href="https://storage.googleapis.com/heroldev/resume.pdf">résumé</a>
           </p>
       </div>
       <hr />
