@@ -16,7 +16,7 @@ const Projects = () => {
   const [baseProjectsWidth, setBaseProjectsWidth] = useState(0)
 
   return (
-    <>
+    <div>
       <div className="x-container-header">
         <h1 className={"x-title-name"}>Projects</h1>
         <p><Link to="/">back to home</Link></p>
@@ -35,11 +35,11 @@ const Projects = () => {
                         <h2 className={"x-subtitle"}>{project.name}</h2>
                         {project.sourceLink && project.visitLink
                           ?
-                          <p><a href={project.visitLink}>visit</a> | <a href={project.sourceLink}>source</a></p>
+                          <p><a target="_blank" href={project.visitLink}>visit</a> | <a target="_blank" href={project.sourceLink}>source</a></p>
                           : project.visitLink ?
-                            <p><a href={project.visitLink}>visit</a></p>
+                            <p><a target="_blank" href={project.visitLink}>visit</a></p>
                             : project.sourceLink &&
-                            <p><a href={project.sourceLink}>source</a></p>
+                            <p><a target="_blank" href={project.sourceLink}>source</a></p>
                         }
                       </div>
                       <ul>
@@ -58,7 +58,7 @@ const Projects = () => {
           )
         })
       }
-    </>
+    </div>
   )
 }
 
