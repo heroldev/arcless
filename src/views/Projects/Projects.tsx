@@ -11,10 +11,6 @@ import getProjects from "./projectsList"
 
 const Projects = () => {
 
-  const baseProjects = useRef(null);
-
-  const [baseProjectsWidth, setBaseProjectsWidth] = useState(0)
-
   return (
     <div>
       <div className="x-container-header">
