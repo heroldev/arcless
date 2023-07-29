@@ -1,37 +1,51 @@
-import { ReactMarkdown } from "react-markdown/lib/react-markdown"
+/*
+* Authored by Andrew Herold (heroldev)
+* Copyright 2023
+*/
 import "../Home/Home.less"
 import "./Projects.less"
-import remarkGfm from "remark-gfm"
+import getProjects from "./projectsList"
 
 const Projects = () => {
 
   return (
     <>
-      <h1 className={"x-title-name"}>2023</h1>
-      <div className={"x-fl-rr-container"}>
-        <div className={"x-fl-rr-container"}>
-          <div className="x-heading-container">
-            <h2 className={"x-subtitle"}>Personal Website</h2>
-            <p><a href="https://github.com/heroldev/arcless">source</a></p>
-          </div>
-          <ul>
-            <li>
-              <p>Created a simple personal portfolio to showcase my projects and experience.</p>
-            </li>
-          </ul>
-        </div>
-        <div className={"x-fl-rr-container"}>
-          <div className="x-heading-container">
-            <h2 className={"x-subtitle"}>Falcon</h2>
-          </div>
-          <ul>
-            <li>
-              <p>Architected a cross-platform tracker music player using <strong>Golang</strong> and the BASS audio library.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
+      {
+        getProjects().forEach((projectList, year) => {
+          console.log(projectList)
+          return (
+            <>
+              <h1 className={"x-title-name"}>{year}</h1>
+              <div className={"x-fl-rr-container"}>
+                {
+                  projectList.map((project, idx) => (
+                    <div key={idx} className={"x-fl-rr-container"}>
+                      <div className="x-heading-container">
+                        <h2 className={"x-subtitle"}>{project.name}</h2>
+                        {project.sourceLink && project.visitLink
+                          ?
+                          <p><a href={project.visitLink}>visit</a> | <a href={project.sourceLink}>source</a></p>
+                          : project.visitLink ?
+                            <p><a href={project.visitLink}>visit</a></p>
+                            : project.sourceLink &&
+                            <p><a href={project.sourceLink}>source</a></p>
+                        }
+                      </div>
+                      <ul>
+                        {project.bullets.map((bullet, idx) => (
+                          <li key={idx}>
+                            <p>{bullet}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))
+                }
+              </div>
+            </>
+          )
+        })
+      }
     </>
   )
 }

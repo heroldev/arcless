@@ -1,3 +1,7 @@
+/*
+* Authored by Andrew Herold (heroldev)
+* Copyright 2023
+*/
 import { Route, Routes } from "react-router-dom"
 import Home from "./views/Home/Home"
 import Projects from "./views/Projects/Projects"

@@ -1,3 +1,8 @@
+/*
+* Authored by Andrew Herold (heroldev)
+* Copyright 2023
+*/
+import { Link } from "react-router-dom"
 import "./Home.less"
 
 const Home = () => {
@@ -19,7 +24,7 @@ const Home = () => {
           {" / "}
           <a href="https://storage.cloud.google.com/heroldev/resume.pdf">résumé</a>
           {" / "}
-          <a href="/projects">list of projects</a>
+          <Link to="/projects">list of projects</Link>
           </p>
       </div>
       <hr />
