@@ -12,5 +12,22 @@ export const Projects2023: IProject[] = [
     bullets: [
       "Created a simple personal portfolio to showcase my projects and experience.",
     ]
+  },
+  {
+    name: "Falcon Audio Player",
+    bullets: [
+      "Architected a cross-platform tracker music player using **Golang** and the BASS audio library.",
+    ]
+  }
+]
+
+export const Projects2022: IProject[] = [
+  {
+    name: "Foresight",
+    visitLink: "foresight.heroldev.net",
+    sourceLink: "https://github.com/heroldev/foresight-client",
+    bullets: [
+      "Created a simple personal portfolio to showcase my projects and experience.",
+    ]
   }
 ]
