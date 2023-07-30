@@ -2,7 +2,6 @@
 * Authored by Andrew Herold (heroldev)
 * Copyright 2023
 */
-import { useEffect, useRef, useState } from "react"
 import { Link } from "react-router-dom"
 import "../../index.less"
 import "../Home/Home.less"
