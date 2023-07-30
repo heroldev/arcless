@@ -12,7 +12,7 @@ import getProjects from "./projectsList"
 const Projects = () => {
 
   return (
-    <div>
+    <div style={{height: "100%", marginRight: "2.4em", marginLeft: "2.4em"}}>
       <div className="x-container-header">
         <h1 className={"x-title-name"}>Projects</h1>
         <p><Link to="/">back to home</Link></p>
@@ -25,7 +25,7 @@ const Projects = () => {
               <div className={"x-fl-rr-container-outer"}>
                 <hr className="long" />
                 {
-                  getProjects().get(year)!.map((project, idx) => (
+                  (getProjects().get(year) ?? []).map((project, idx) => (
                     <div key={idx} className={"x-fl-rr-container"}>
                       <div className="x-heading-container">
                         <h2 className={"x-subtitle"}>{project.name}</h2>
