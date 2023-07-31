@@ -23,7 +23,7 @@ export const Projects2023: IProject[] = [
   {
     name: "Robocode",
     bullets: [
-      "Created a couple nanobots for a work-related programming competition.",
+      "Created a couple nanobots in Java for a work-related programming competition.",
       "Swordfish 1.1.1 was crowned the June 2023 champion."
     ]
   },
@@ -55,7 +55,7 @@ export const Projects2022: IProject[] = [
     name: "Ongaku/Musebert",
     sourceLink: "https://github.com/heroldev/ongaku/",
     bullets: [
-      "Built a Node.js application that forwards audio content from Youtube into a Discord voice channel.",
+      "Built a Node.js/Typescript application that forwards audio content from Youtube into a Discord voice channel.",
     ]
   },
   {
@@ -69,7 +69,7 @@ export const Projects2022: IProject[] = [
     name: "Meowbert",
     sourceLink: "https://github.com/heroldev/meowbert",
     bullets: [
-      "Created a robust Node.js application to encourage Discord conversations by asking users a unique question every single day.",
+      "Created a Node.js/Typescript application to encourage Discord conversations by asking users a new question every day.",
       "Uses SQLite to store relevant data and manage questions asked."
     ]
   },

@@ -32,7 +32,7 @@ const Home = () => {
         <p>email: andrew [at] this domain</p>
       </div>
       <div className={"x-container"}>
-        <p className="x-p-footer">last updated: 7.24.2023</p>
+        <p className="x-p-footer">last updated: 7.30.2023</p>
       </div>
     </>
   )
