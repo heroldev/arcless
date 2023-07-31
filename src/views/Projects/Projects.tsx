@@ -15,6 +15,7 @@ const Projects = () => {
       <div className="x-container-header">
         <h1 className={"x-title-name"}>Projects</h1>
         <p><Link to="/">back to home</Link></p>
+        <p className="x-p-footer" style={{paddingTop: "0.6em"}}>last updated: 7.30.2023</p>
       </div>
       {
         [...getProjects().keys()].map((year, idx) => {
