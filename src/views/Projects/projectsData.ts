@@ -17,7 +17,7 @@ export const Projects2023: IProject[] = [
   {
     name: "Falcon Audio Player",
     bullets: [
-      "Architected a cross-platform tracker music player using Golang and the BASS audio library.",
+      "Currently building a cross-platform tracker music player using Golang and the BASS audio library.",
     ]
   },
   {
@@ -25,6 +25,13 @@ export const Projects2023: IProject[] = [
     bullets: [
       "Created a couple nanobots for a work-related programming competition.",
       "Swordfish 1.1.1 was crowned the June 2023 champion."
+    ]
+  },
+  {
+    name: "MavPASS Scheduling System",
+    bullets: [
+      "Created for CS 391W: Computer Science Project 1 at Minnesota State Mankato.",
+      "Worked with a team to convert a console application to a C# backend with a React/Redux frontend." 
     ]
   },
   {
@@ -55,7 +62,7 @@ export const Projects2022: IProject[] = [
     name: "Emerald Remix",
     sourceLink: "https://github.com/heroldev/emerald-remix",
     bullets: [
-      "Added quality-of-life improvements to the C source code decompilation of the video game Pokémon Emerald.",
+      "Added custom features and bugfixes to the C/C++ source code decompilation of the Game Boy Advance game Pokémon Emerald.",
     ]
   },
   {
@@ -92,8 +99,8 @@ export const Projects2021: IProject[] = [
     sourceLink: "https://github.com/danielnoon/wehedge",
     bullets: [
       "Submitted for Cornhacks 2021, a 24-hour hackathon at the University of Nebraska-Lincoln.",
-      "Won first prize in the Finance judging track, built around the concept of democratic financial portfilio management.",
       "Collaborated with a team to create a minimum viable product in Ruby and Angular to showcase a unique idea.",
+      "Won first prize in the Finance judging track, built around the concept of democratic financial portfilio management."
     ]
   }
 ]
@@ -103,7 +110,7 @@ export const Projects2018: IProject[] = [
     name: "AGB-Buttontest",
     sourceLink: "https://github.com/heroldev/AGB-buttontest",
     bullets: [
-      "A simple C program created to natively test the buttons on a Game Boy Advance gaming console.",
+      "A simple C program designed to natively test the buttons on a Game Boy Advance gaming console.",
       "Followed the example from a Game Boy Advance programming textbook."
     ]
   }
