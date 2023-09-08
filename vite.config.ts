@@ -1,3 +1,7 @@
+/*
+* Authored by Andrew Herold (heroldev)
+* Copyright 2023
+*/
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 

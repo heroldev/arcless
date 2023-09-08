@@ -1,3 +1,7 @@
+/*
+* Authored by Andrew Herold (heroldev)
+* Copyright 2023
+*/
 @astrobrite-peach: #FEDEB5;
 @resume-text: #141414;
 @lighter-text: #30323D;
@@ -40,7 +44,6 @@
   padding: 0;
   margin: 0;
   line-height: 140%;
-  text-align: center;
 }
 
 #root {
@@ -81,6 +84,9 @@ hr {
   border-top: 1px solid var(--arc-palette-subtitle, @resume-text);
   width: 40px;
   margin: 0.6em 0;
+  &.long {
+    width: 100%;
+  }
 }
 
 a {
@@ -101,4 +107,7 @@ h2 {
 
 p {
   font-size: var(--font-size-18);
+  &.italic {
+    font-style: italic;
+  }
 }
