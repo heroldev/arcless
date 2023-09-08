@@ -1,1 +1,1 @@
-inspired by asie.pl
+# personal website
